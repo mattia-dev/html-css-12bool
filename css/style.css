@@ -6,8 +6,8 @@
     background-color: #ffc0cb;
     border: 1px solid black;
     height: 150px;
-    text-align: center;
     line-height: 150px;
+    text-align: center;
 }
 
 [class*="col"] > .row {
@@ -17,6 +17,10 @@
 [class*="col"] > .row > [class*="col"] {
     background-color: #f07f80;
     border: 1px solid white;
-    height: 100%;
-    line-height: 140px;
+    height: 100%; 
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }
