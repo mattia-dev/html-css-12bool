@@ -1,0 +1,22 @@
+.row {
+    height: 100%;
+}
+
+[class*="col"] {
+    background-color: #ffc0cb;
+    border: 1px solid black;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+[class*="col"] > .row {
+    padding: 5px;
+}
+
+[class*="col"] > .row > [class*="col"] {
+    background-color: #f07f80;
+    border: 1px solid white;
+    height: 100%;
+    line-height: 140px;
+}
