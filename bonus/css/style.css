@@ -1,0 +1,31 @@
+.row {
+    height: 100%;
+}
+
+[class*="col"] {
+    height: 44.58px;
+}
+
+[class*="col"] > .row > [class*="col"] {
+    height: 100%;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: royalblue;
+}
+
+.orange {
+    background-color: sandybrown;
+}
